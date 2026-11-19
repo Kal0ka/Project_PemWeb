@@ -8,11 +8,11 @@ Project ini dibuat menggunakan HTML, CSS, dan JavaScript dengan memanfaatkan The
 
 ### Halaman Beranda
 
-![Halaman Beranda](screenshots/beranda.png)
+![Halaman Beranda](screenshots/Beranda.png)
 
 ### Halaman Sejarah dan Squad
 
-![Halaman Sejarah dan Squad](screenshots/sejarah-squad.png)
+![Halaman Sejarah dan Squad](screenshots/Sejarah - Squad.png)
 
 ## Fitur Website
 
@@ -27,8 +27,8 @@ Project ini dibuat menggunakan HTML, CSS, dan JavaScript dengan memanfaatkan The
 
 ## Teknologi yang Digunakan
 
-- **HTML5** – Membuat struktur dan konten halaman website.
-- **CSS3** – Mengatur tampilan, layout, dan responsivitas website.
+- **HTML** – Membuat struktur dan konten halaman website.
+- **CSS** – Mengatur tampilan, layout, dan responsivitas website.
 - **JavaScript** – Mengatur interaksi, tanggal dan waktu, serta pengambilan data API.
 - **TheSportsDB API** – Menyediakan data profil pemain.
 
