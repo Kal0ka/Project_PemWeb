@@ -1,0 +1,296 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #222;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+header {
+    background-color: #b30000;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+#tanggal-waktu {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+nav {
+    background-color: #222;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+}
+
+nav a:hover {
+    background-color: #b30000;
+}
+
+.hero {
+    background-color: white;
+    text-align: center;
+    padding: 70px 0;
+}
+
+.hero h2 {
+    font-size: 32px;
+    color: #b30000;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    max-width: 750px;
+    margin: 0 auto 25px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #b30000;
+    color: white;
+    text-decoration: none;
+    padding: 12px 22px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.button:hover {
+    background-color: #800000;
+}
+
+.informasi {
+    padding: 50px 0;
+}
+
+.informasi h2,
+.sejarah h2,
+.prestasi h2,
+.pemain h2 {
+    text-align: center;
+    color: #b30000;
+    margin-bottom: 30px;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.info-card {
+    background-color: white;
+    padding: 25px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.info-card h3 {
+    color: #b30000;
+    margin-bottom: 10px;
+}
+
+.sejarah {
+    background-color: white;
+    padding: 50px 0;
+}
+
+.sejarah article {
+    max-width: 800px;
+    margin: 0 auto 30px;
+}
+
+.sejarah article h3 {
+    color: #b30000;
+    margin-bottom: 10px;
+}
+
+.prestasi {
+    padding: 50px 0;
+}
+
+.prestasi-card {
+    background-color: white;
+    max-width: 700px;
+    margin: 0 auto 20px;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+.prestasi-card h3 {
+    color: #b30000;
+    margin-bottom: 10px;
+}
+
+.prestasi-card ul {
+    padding-left: 25px;
+}
+
+.pemain {
+    background-color: white;
+    padding: 50px 0;
+}
+
+.musim-squad {
+    text-align: center;
+    color: #666;
+    margin-top: -20px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.status-pemain {
+    text-align: center;
+    padding: 25px;
+    color: #555;
+}
+
+.kategori-squad {
+    margin-bottom: 40px;
+}
+
+.kategori-squad h3 {
+    color: #b30000;
+    font-size: 23px;
+    border-bottom: 2px solid #b30000;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+}
+
+.pemain-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.pemain-card {
+    background-color: #f4f4f4;
+    padding: 25px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease;
+}
+
+.pemain-card:hover {
+    transform: translateY(-5px);
+}
+
+.pemain-foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+    margin-bottom: 12px;
+}
+
+.pemain-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.foto-tidak-tersedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    background-color: #ddd;
+    color: #666;
+    border-radius: 50%;
+    font-size: 13px;
+}
+
+.pemain-card h4 {
+    color: #b30000;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.pemain-detail {
+    font-size: 14px;
+    color: #555;
+}
+
+.pemain-nomor {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+}
+
+@media (max-width: 768px) {
+    .info-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .pemain-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 500px) {
+    .info-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .pemain-grid {
+        grid-template-columns: 1fr;
+    }
+}
