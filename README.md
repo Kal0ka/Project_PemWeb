@@ -12,7 +12,7 @@ Project ini dibuat menggunakan HTML, CSS, dan JavaScript dengan memanfaatkan The
 
 ### Halaman Sejarah dan Squad
 
-![Halaman Sejarah dan Squad](screenshots/Sejarah - Squad.png)
+![Halaman Sejarah dan Squad](screenshots/Sejarah-Squad.png)
 
 ## Fitur Website
 
